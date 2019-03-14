@@ -12,6 +12,9 @@ int main() {
   cout << "l1 size: " << l1.getSize() << endl;
   cout << l1 << endl;
 
+  l1.reverseIterative();
+  cout << "l1 reversed: " << l1 << endl;
+
   LinkedList l2;
   l2.insertAtBack(3);
   l2.insertAtFront(2);
@@ -22,4 +25,7 @@ int main() {
 
   cout << "l2 size: " << l2.getSize() << endl;
   cout << l2 << endl;
+
+  l2.reverseIterative();
+  cout << "l2 reversed: " << l2 << endl;
 }

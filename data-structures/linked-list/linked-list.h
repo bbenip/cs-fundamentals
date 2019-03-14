@@ -12,6 +12,8 @@ public:
 
   void addRange(int begin, int end);
 
+  void reverseIterative();
+
   friend std::ostream& operator<<(std::ostream& out, const LinkedList& ll);
 
 private:

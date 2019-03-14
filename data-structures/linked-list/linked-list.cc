@@ -1,5 +1,6 @@
 #include <exception>
 #include <string>
+#include <utility>
 #include "linked-list.h"
 
 struct LinkedList::Node {
@@ -69,6 +70,25 @@ void LinkedList::addRange(int begin, int end) {
   for (int i = begin; i < end; ++i) {
     insertAtBack(i);
   }
+}
+
+void LinkedList::reverseIterative() {
+  if (size <= 1) return;
+
+  Node* prevNode = nullptr;
+  Node* curNode = head;
+  Node* tmpNode;
+
+  while (curNode->next != nullptr) {
+    tmpNode = curNode->next;
+    curNode->next = prevNode;
+    prevNode = curNode;
+    curNode = tmpNode;
+  }
+
+  curNode->next = prevNode;
+
+  std::swap(tail, head);
 }
 
 std::ostream& operator<<(std::ostream& out, const LinkedList& ll) {
