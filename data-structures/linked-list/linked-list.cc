@@ -102,3 +102,15 @@ std::ostream& operator<<(std::ostream& out, const LinkedList& ll) {
 
   return out;
 }
+
+void LinkedList::reverseRecursive() {
+  if (size <= 1) return;
+
+  reverseRecursiveNode(head, nullptr);
+  std::swap(head, tail);
+}
+
+void LinkedList::reverseRecursiveNode(Node* curNode, Node* prevNode) {
+  if (curNode->next != nullptr) reverseRecursiveNode(curNode->next, curNode);
+  curNode->next = prevNode;
+}
