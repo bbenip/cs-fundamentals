@@ -2,7 +2,7 @@
 
 A repository with implementations of data structures and algorithms in C++.
 
-### Data Structures
+### [Data Structures](/data-structures)
 * Binary Heap
 * Dynamic Array
 * Linked List
