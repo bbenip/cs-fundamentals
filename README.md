@@ -19,6 +19,6 @@ A repository with implementations of data structures and algorithms in C++.
   * Counting Sort
   * [Insertion Sort](/algorithms/sorting/insertion-sort.cc)
   * Radix Sort
-  * Selection Sort
+  * [Selection Sort](/algorithms/sorting/selection-sort.cc)
 * Miscellaneous
   * 3SUM
