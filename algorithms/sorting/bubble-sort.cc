@@ -3,7 +3,16 @@
 
 using namespace std;
 
-// Sort array in-place in ascending order
+/**
+ * Apply Bubble Sort to an array
+ *
+ * Stable: Yes
+ * Time Complexity: Ω(n), O(n^2)
+ * Space Complexity: O(1)
+ *
+ * @param array
+ *   An unsorted vector of integers
+ */
 void bubbleSort(vector<int>& array) {
   int arraySize = array.size();
   bool sorted = false;
