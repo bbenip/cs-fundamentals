@@ -4,7 +4,16 @@
 
 using namespace std;
 
-// Sort array in-place in ascending order
+/**
+ * Apply Selection Sort to an array
+ *
+ * Stable: No
+ * Time Complexity: Θ(n^2)
+ * Space Complexity: O(1)
+ *
+ * @param array
+ *   An unsorted vector of integers
+ */
 void selectionSort(vector<int>& array) {
   int arraySize = array.size();
 
