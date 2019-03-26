@@ -14,7 +14,7 @@ A repository with implementations of data structures and algorithms in C++.
 * Stack
 
 ### Algorithms
-* Sorting
+* [Sorting](/algorithms/sorting)
   * [Bubble Sort](/algorithms/sorting/bubble-sort.cc)
   * Counting Sort
   * [Insertion Sort](/algorithms/sorting/insertion-sort.cc)
