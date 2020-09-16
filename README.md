@@ -22,3 +22,4 @@ A repository with implementations of data structures and algorithms in C++.
   * [Selection Sort](/algorithms/sorting/selection-sort.cc)
 * [Miscellaneous](/algorithms/miscellaneous)
   * [3SUM](/algorithms/miscellaneous/three-sum.cc)
+  * [Linear Search](/algorithms/miscellaneous/linear-search.cc)
